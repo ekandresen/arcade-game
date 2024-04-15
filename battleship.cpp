@@ -51,8 +51,8 @@ void gameDisplay(int playerBoard[][COLUMNS], int computerDisplay[][COLUMNS])
 
 	int i = 0, j = 0, k = 0;
 
-	cout << endl << setw(13) << "PLAYER" << setw(13) << "COMPUTER" << endl;
-	cout << setw(11) << " 12345678910" << setw(14) << " 12345678910" << endl;
+	cout << endl << setw(14) << "PLAYER" << setw(14) << "COMPUTER" << endl;
+	cout << setw(11) << " 12345678910" << setw(11) << " 12345678910" << endl;
 
 	for (i = 0; i < 10; i++) {
 		for (j = 0; j < 10; j++) {
